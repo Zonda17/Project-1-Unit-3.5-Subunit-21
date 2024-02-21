@@ -12,9 +12,9 @@ h1 {
 h2 {
     color: #E82317;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 2rem;
+    font-size: 10vw;
     text-decoration: underline;
-    text-align: left;
+    text-align: center;
     border: 4px solid violet;
     padding: 5px;
     box-sizing: border-box;
@@ -65,14 +65,15 @@ img{
     padding: 7px;
     margin: 5px;
     box-sizing: border-box;
-    text-align: right;
+    text-align: center;
 }
 
 
 #intro h2{
     position: relative;
-    top: 0px;
-    left: 220px;
+    /* top: 0px; */
+    /* left: 220px; */
+    margin: auto;
     text-align: center;
 }
 
@@ -89,7 +90,6 @@ img{
     text-align: center;
     position: relative;
     top: auto;
-    left: 220px;
 }
 
 #edu{
@@ -103,7 +103,6 @@ img{
 #edu h2{
     position: relative;
     top: auto;
-    left: 220px;
     text-align: center;
 }
 
@@ -156,7 +155,6 @@ li{
 #table h2{
     position: relative;
     top: auto;
-    left: 220px;
     text-align: center;
 }
 
@@ -173,7 +171,7 @@ li{
 #contact h2{
     position: relative;
     top: auto;
-    left: 220px;
+    left: 0px;
     text-align: center;
 }
 
